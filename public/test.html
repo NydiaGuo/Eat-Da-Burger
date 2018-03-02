@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<title>Eat Burgers</title>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/assets/js/burger.js"></script>
+	</head>
+	<body>
+	<h1>Eat Burgers</h1>
+
+<h2>Burgers want to eat</h2>
+
+<ul>
+  {{#each bugers}}
+    {{#unless devoured}}
+      {{> burger/burger-block devoured=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Burgers Do Not Like</h2>
+
+<ul>
+  {{#each bugers}}
+    {{#if devoured}}
+      {{> burger/burger-block devoured=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="burger">Burger Name:</label>
+    <input type="text" id="burger" name="name">
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
+
+<li>
+	{{name}}
+
+	<button class="eat-burger" data-id="{{id}}" data-neweat="{{devoured}}">
+		{{#if devoured}}Eat Burger!{{else}}Not want!{{/if}}
+	</button>
+</li>
+
+	</body>
+</html>
