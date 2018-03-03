@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var logger = require("morgan");
 //var methodOverride = require("method-overrid");
 
-var port = 8080;
+var port = process.env.PORT || 8080;
 var app = express();
 
 app.use(express.static("public"));
