@@ -3,7 +3,6 @@ $(function() {
   $(".eat-burger").on("click", function(event) {
     console.log(this);
     var id = $(this).data("id");
-    //var newEat = $(this).data("neweat");
 
     var newBurgerState = {
       devoured: true
@@ -43,4 +42,5 @@ $(function() {
       }
     );
   });
+  
 });
