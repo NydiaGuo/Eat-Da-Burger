@@ -25,6 +25,7 @@ Eat Da Burger mainly build by MySQL, Node, Express, Handlebars and a homemade OR
 ## Screen Shots
 
 ### Homepage
+![Homepage](public/assets/img/burger.gif)
 
 
 ## Technologies used 
