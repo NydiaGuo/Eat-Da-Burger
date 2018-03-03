@@ -1,4 +1,4 @@
-INSERT INTO burger (burger_name, devoured, current) 
-VALUES ('Big Fish', false, current), 
-('Double Stacker', false, current), 
-('Whopper with Cheese', true, current);
+INSERT INTO burger (burger_name, devoured) 
+VALUES ('Big Fish', false), 
+('Double Stacker', false), 
+('Whopper with Cheese', true);

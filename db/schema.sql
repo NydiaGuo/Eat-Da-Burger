@@ -1,10 +1,10 @@
 
-USE pv633r1oaexyrjai;
+USE u5b9r1oo1dpvjx2h;
 
 CREATE TABLE burger (
 	id INT NOT NULL AUTO_INCREMENT,
 	burger_name VARCHAR(50),
 	devoured BOOLEAN DEFAULT false,
-	date TIMESTAMP NOT NULL,
+	current TIMESTAMP NOT NULL DEFAULT NOW(),
 	PRIMARY KEY(id)
 );
