@@ -1,6 +1,7 @@
 var mysql = require("mysql");
 //set the connection with Heroku and MySQL
 var connection 
+
 if(process.env.JAWSDB_URL){
 
 	connection = mysql.createConnection(process.env.JAWSDB_URL);
