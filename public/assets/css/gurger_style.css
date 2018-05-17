@@ -1,17 +1,24 @@
 body,html {
 	height: 100%;
 	margin:0;
-
 }
 
-#bg{
-	background-image: url("../img/burgers.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	height: 100%;
+.bg {
 	font-family:Arial, "Helvetica Neue", Hevlevtica, sans-serif;
 	font-size: 25px;
-	color: white;
+	/* color: black; */
+	color: orangered;
+	position: absolute;
+	left: 700px;
+}
+
+#back {
+	height: 100%;
+	background-image: url("https://media.giphy.com/media/138btjfXAn1xyo/giphy.gif");
+	/* background-image: url("../img/giphy.gif"); */
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: relative;
 }
 
 #addBurger {
