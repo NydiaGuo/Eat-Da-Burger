@@ -1,5 +1,4 @@
-
-USE u5b9r1oo1dpvjx2h;
+USE burger_db;
 
 CREATE TABLE burger (
 	id INT NOT NULL AUTO_INCREMENT,

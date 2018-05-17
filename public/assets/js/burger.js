@@ -1,7 +1,7 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
   $(".eat-burger").on("click", function(event) {
-    console.log(this);
+
     var id = $(this).data("id");
 
     var newBurgerState = {
@@ -14,7 +14,6 @@ $(function() {
       data: newBurgerState
     }).then(
       function() {
-        console.log("changed burger to", true);
         // Reload the page to get the updated list
         location.reload();
       }
@@ -42,5 +41,5 @@ $(function() {
       }
     );
   });
-  
+
 });

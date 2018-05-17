@@ -1,10 +1,9 @@
 <li>
 	{{burger_name}}
+	<strong>
+		<button class="btn btn-success eat-burger" data-id="{{id}}" data-neweat="{{devoured}}">
+			{{#if devoured}}Eat it!{{else}}Yummy!{{/if}}
+		</button>
+	</strong>
 
-	<button class="btn btn-success eat-burger" data-id="{{id}}" data-neweat="{{devoured}}">
-		{{#if devoured}}Eat it!{{else}}Yummy!{{/if}}
-
-	</button>
-	<br>
-	<br>
 </li>
