@@ -6,7 +6,7 @@ This is a restaurant app that lets users input the names of burgers they'd like 
 
 ## How to use it
 
-* Uers can link to the homepage [Eat Da Burger](https://tranquil-ravine-87618.herokuapp.com/) without any registration.
+* Uers can link to the homepage [Eat Da Burger](https://eat-da-funny-burgers.herokuapp.com/) without any registration.
 
 * Once the user link in, they can submits a burger's name, the app will display the burger on the top side of the page -- Burgers are ready!.
 
