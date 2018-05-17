@@ -5,11 +5,11 @@ body,html {
 
 .bg {
 	font-family:Arial, "Helvetica Neue", Hevlevtica, sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	/* color: black; */
 	color: orangered;
-	position: absolute;
-	left: 700px;
+	position: relative;
+	left: 600px;
 }
 
 #back {
@@ -18,7 +18,7 @@ body,html {
 	/* background-image: url("../img/giphy.gif"); */
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-attachment: relative;
+	background-attachment: absolute;
 }
 
 #addBurger {
