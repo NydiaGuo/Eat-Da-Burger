@@ -1,3 +1,4 @@
+
 USE burger_db;
 
 CREATE TABLE burger (
