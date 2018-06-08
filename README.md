@@ -16,7 +16,7 @@ This is a restaurant app that lets users input the names of burgers they'd like 
 
 Eat Da Burger mainly build by MySQL, Node, Express, Handlebars and a homemade ORM. The app has 3 basic CRUD functions:
 
-1. READ all the database from MySQL and show them to the DOM by using Handlebase.
+1. READ all the database from MySQL and show them to the DOM by using Handlebars.
 
 2. UPDATE a selected burger by clicking the `Eat it!` button, which it will hit `/api/burgers/:id` route in Express to change the status in the MySQL database, and re-routes the page back to the `index` page.
 
